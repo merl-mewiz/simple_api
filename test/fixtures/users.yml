@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: one@one.ru
+  password_digest: hashed_pass
+
+two:
+  email: two@two.ru
+  password_digest: MyString
