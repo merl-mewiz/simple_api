@@ -41,3 +41,4 @@ end
 gem 'tzinfo-data'
 
 gem 'bcrypt', '~> 3.1'
+gem 'jwt'
