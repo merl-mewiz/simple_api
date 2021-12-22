@@ -6,4 +6,10 @@ class ProductTest < ActiveSupport::TestCase
       users(:one).destroy
     end
   end
+
+  test 'should have a positive price' do
+    product = products(:one)
+    product.price = -1
+    assert_not product.valid?
+  end
 end
